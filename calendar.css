@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans_serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.calendar {
+  width: 400px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+.day-name {
+  font-weight: bold;
+  text-align: center;
+}
+
+.day {
+  border: 1px solid #ccc;
+  min-height: 80px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.day:hover {
+  background-color: #f0f8ff;
+}
+
+.assignment {
+  background-color: #4caf50;
+  color: white;
+  padding: 2px 4px;
+  margin-top: 4px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.empty {
+  border: none;
+}
