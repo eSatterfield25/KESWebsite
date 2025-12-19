@@ -1,0 +1,22 @@
+body {
+  background-color: charcole;
+}
+h1 {
+  font-color: pink;
+  font-family: Times New Roman;
+  font-size: 150%;
+  font-weight: normal;
+}
+
+p {
+  font-color: blue;
+  font-family: Arial;
+  font-size: 100%;
+  font-weight: bold;
+}
+a {
+  font-color: red;
+  font-family: Arial;
+  font-size: 100%;
+  font-weight: bold;
+}
